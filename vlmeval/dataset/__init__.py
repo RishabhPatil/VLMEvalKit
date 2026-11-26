@@ -148,6 +148,7 @@ from .tamperbench import MVTamperBench
 from .tempcompass import TempCompass, TempCompass_Captioning, TempCompass_MCQ, TempCompass_YorN
 from .text_mcq import CustomTextMCQDataset, TextMCQDataset
 from .uni_svg import UniSVG
+from .urbench import UrBench
 from .utils import DEBUG_MESSAGE, build_judge, extract_answer_from_item, prefetch_answer
 from .v2pbench import V2PBench
 from .vcr import VCRDataset
@@ -321,7 +322,7 @@ IMAGE_DATASET = [
     SciDocBench, OmniMat,
     MMRarebenchDiagnosis, MMRarebenchTreatment, MMRarebenchCrossmodal, MMRarebenchExamination,
     MRareBenchDiagnosis, MRareBenchEvidenceVerif, MolRecBenchWildDataset, BabyVision, WildprobeDataset,
-    PerceptionBench, SUPERChemDataset,
+    PerceptionBench, SUPERChemDataset, UrBench,
 ]
 
 # add by EASI team
